@@ -1,0 +1,10 @@
+version: '2'
+services:
+  vpn:
+    build: .
+    image: jameseckersall/vpn
+    user: "100000:100000"
+    ports:
+    - 8112:8112
+    - 53160:53160
+    - 58846:58846
