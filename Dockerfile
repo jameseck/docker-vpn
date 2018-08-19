@@ -22,6 +22,7 @@ ENV \
   LAN_NETWORK=192.168.0.0/16 \
   NAME_SERVERS=8.8.8.8,9.9.9.9 \
   VPN_CONFIG=/config/openvpn/openvpn.ovpn \
+  VPN_TYPE=l2tp \
   VPN_DEVICE_TYPE=tun \
   VPN_PROV=torguard \
   VPN_REMOTE=88.150.157.14 \
